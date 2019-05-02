@@ -1,0 +1,11 @@
+
+ config.json
+
+host: 		MySQL主机名
+port: 		端口号
+user: 		登录用户名
+pass: 		登录密码
+dbnames: 	要查询的库列表，查询指定库下所有表
+query_cols: 	要查询的字段，若某字段不存在表中则该字段不查询，（select ...
+		where column1 like "keyword%" or column2 like "keyword%" or ...）
+cols_sort: 	结果列排序顺序

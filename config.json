@@ -1,0 +1,9 @@
+{
+	"host": "localhost",
+	"port": "3306",
+	"user": "root",
+	"pass": "",
+	"dbnames": ["sgk_part1", "sgk_part2"],
+	"query_cols": ["name", "email"],
+	"cols_sort": ["name", "username", "email", "pass", "passwd", "password", "salt", "other", "text"]
+}
